@@ -12,7 +12,7 @@ char *leet(char *c)
 int i = 0, j;
 char a[] = {'a', 'e', 'o', 't', 'l'}, b[] = {'A', 'E', 'O', 'T', 'L'},
 leet[] = {'4', '3', '0', '7', '1'};
-while (c[i] != '\0'
+while (c[i] != '\0')
 {
 j = 0;
 while (j < 5)
