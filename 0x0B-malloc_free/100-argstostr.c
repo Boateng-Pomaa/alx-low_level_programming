@@ -20,9 +20,8 @@ for (c = i = 0; i < ac; i++)
 if (av[i] == NULL)
 return (NULL);
 for (j = 0; av[i][j] != '\0'; j++)
-{
 c++;
- c++;
+c++;
 }
 aout = malloc((c + 1) * sizeof(char));
 if (aout == NULL)
